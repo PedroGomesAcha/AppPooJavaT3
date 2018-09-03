@@ -9,7 +9,7 @@ public class TesteAluno {
 	public static void main(String[] args) {		
 	Scanner ler = new Scanner(System.in);	
 	
-		//mariazinha
+	
 		Aluno maria = new Aluno();
 		Aluno joao = new Aluno();
 	
@@ -27,7 +27,7 @@ public class TesteAluno {
 		
 		maria.exibir();
 		
-		//joaozin				
+			
 		System.out.printf("\ninforme o nome do segundo aluno : ");
 		joao.nome = ler.next();
 		
