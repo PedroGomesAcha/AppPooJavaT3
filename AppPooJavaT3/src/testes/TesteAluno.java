@@ -9,7 +9,7 @@ public class TesteAluno {
 	public static void main(String[] args) {		
 	Scanner ler = new Scanner(System.in);	
 	
-		
+		//mariazinha
 		Aluno maria = new Aluno();
 		Aluno joao = new Aluno();
 	
@@ -22,12 +22,12 @@ public class TesteAluno {
 		System.out.printf("informe a mensalidade: ");
 		maria.mensalidade = ler.nextFloat();
 		
-		System.out.printf("Seu sexo é masculino:  ");
+		System.out.printf("Seu sexo Ã© masculino:  ");
 		maria.masculino = ler.nextBoolean();
 		
 		maria.exibir();
 		
-						
+		//joaozin				
 		System.out.printf("\ninforme o nome do segundo aluno : ");
 		joao.nome = ler.next();
 		
@@ -37,7 +37,7 @@ public class TesteAluno {
 		System.out.printf("informe a mensalidade: ");
 		joao.mensalidade = ler.nextFloat();
 		
-		System.out.printf("Seu sexo é masculino: ");
+		System.out.printf("Seu sexo Ã© masculino: ");
 		joao.masculino = ler.nextBoolean();
 		
 		joao.exibir();
@@ -51,14 +51,14 @@ public class TesteAluno {
 //						maria.nome,
 //						maria.idade,
 //						maria.mensalidade);
-//			System.out.printf("\nO nascimento de leandro é: %d",
+//			System.out.printf("\nO nascimento de leandro Ã©: %d",
 //					(ANO_ATUAL -maria.idade));
 			
 		
-			System.out.printf("%s é o aluno mais velho",
+			System.out.printf("%s Ã© o aluno mais velho",
 				(joao.idade >= maria.idade ? joao.nome : maria.nome)
 				);	
-			System.out.printf("\n %s é o aluno que paga mais mensalidade",
+			System.out.printf("\n %s Ã© o aluno que paga mais mensalidade",
 					(maria.mensalidade >= joao.mensalidade ? maria.nome : joao.nome));
 	}
 }
